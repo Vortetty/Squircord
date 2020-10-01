@@ -1,0 +1,31 @@
+/**
+ * @name Squircord
+ * @version 1.0.0
+ * @description Makes some of the circles into squircles that shrink to circles when you hover over them
+ * 
+ * @source https://github.com/Vortetty/Squircord
+ * @authorId 681531347583631444
+ * 
+ */
+
+.svg-1X37T1 > foreignObject, .svg-2V3M55 > foreignObject, 
+.avatar-1BDn8e, .da-gameIcon, .actionButton-uPB8Fs {
+    mask: None;
+    border-radius:35%;
+    transition-duration: 0.25s;
+}
+
+.avatarHintInner-Dco91E {
+    border-radius:35%;
+}
+
+.svg-1X37T1 > foreignObject:hover, .svg-2V3M55 > foreignObject:hover, 
+.avatar-1BDn8e:hover, .da-gameIcon:hover, .actionButton-uPB8Fs:hover {
+    border-radius:68.3333333333%;
+    transition:border-radius 0.25s linear;
+}
+
+.svg-1X37T1 > foreignObject:before, .svg-2V3M55 > foreignObject:before,
+.avatar-1BDn8e:before, .da-gameIcon:before, .actionButton-uPB8Fs:before {
+    border-radius:32.9166666667%;
+}
